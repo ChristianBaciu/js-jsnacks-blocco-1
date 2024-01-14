@@ -3,18 +3,18 @@
 // che sono in posizione dispari
 
 const attivaHtml = document.getElementById( "attiva" )
-
-
 attivaHtml.addEventListener( 'click', function() {
 
-    let numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    // let numeri = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10];
+    let sum = 0;
 
-    console.log("");
+    let arrayNInteri = [1, 2, 3, 4, 5];
 
+    for(let i = 0; i < arrayNInteri.length; i++){
+        if(i % 5 !== 0){
+            console.log(sum += arrayNInteri[i]);
+        }
+    }
 
-
-    
-
+    console.log(`La somma dei numeri in posizione dispari è: ${sum}`);
 
 })

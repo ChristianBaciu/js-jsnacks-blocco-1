@@ -12,7 +12,7 @@ attivaHtml.addEventListener( 'click', function() {
 
         let input = prompt("Inserisci un numero", "1");
         numero += +input;
-    
+
     }
     console.log( "Il risultato del tuo calcolo è: " + numero );
     
